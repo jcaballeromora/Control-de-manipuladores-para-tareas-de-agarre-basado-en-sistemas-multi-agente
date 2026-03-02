@@ -3,6 +3,7 @@
 Este repositorio contiene el código fuente, modelos de simulación y documentación técnica de la tesis doctoral enfocada en la manipulación cooperativa utilizando brazos industriales **Universal Robots (UR3)**.
 
 ![Gráfica de Respuesta de Fuerza](media/Robots_objeto_2.png)
+
 *Figura 1: Plataforma experimental para ejecuci´on de tarea de agarre multi-agente*
 
 ## 📝 Resumen
