@@ -39,7 +39,7 @@ La validación del esquema de control multi-agente y admitancia se llevó a cabo
 
 A continuación se presentan los enlaces a YouTube con los registros del experimento físico, donde se observa el desempeño de la arquitectura asíncrona y la respuesta de los manipuladores UR3:
 
-* 🔗 **[Video 1: Fase de aproximación y enjaulamiento (Caging)](https://youtu.be/s8URMMskm30)**
+* 🔗 **[Video 1: Implementación/experimentación en sistema real: Control de manipuladores para tareas de agarre basado en sistemas multi-agente](https://youtu.be/s8URMMskm30)**
   Se observa la convergencia de los agentes hacia el objeto de TPU y el cierre de la formación geométrica.
 
 * 🔗 **[Video 2: Replicabilidad de experimento I](https://youtu.be/uXbJGvHOyeA)**
