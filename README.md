@@ -21,12 +21,11 @@ Un aporte principal es la superación de las limitaciones de hardware de la seri
 ## 🛠️ Estructura del Repositorio
 * `/src`: Scripts de control en Python (lógica de admitancia, MARS y comunicación).
 * `/sim`: Entornos de simulación en RoboDK y validaciones en MATLAB/Simscape.
-* `/docs`: Documentación técnica, diagramas de flujo y manuales.
 * `/certificados`: Certificaciones oficiales de Universal Robots Academy (Core, Pro, Advanced).
 
 ## 📋 Requisitos
 * Python 3.8+
-* Librerías: `numpy`, `matplotlib`, `urx` o `dashboard_client`.
+* Librerías: `urx`, `math`, `time`, `sys`,`os`, `matplotlib.pyplot`, `numpy`, `pandas`.
 * Hardware: Universal Robots UR3 (CB3 o e-Series) con puerto Ethernet habilitado.
 
 ## 🔬 Resultados Experimentales
