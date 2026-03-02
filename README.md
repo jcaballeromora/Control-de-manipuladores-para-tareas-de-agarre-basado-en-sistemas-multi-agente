@@ -2,7 +2,8 @@
 
 Este repositorio contiene el código fuente, modelos de simulación y documentación técnica de la tesis doctoral enfocada en la manipulación cooperativa utilizando brazos industriales **Universal Robots (UR3)**.
 
-
+![Gráfica de Respuesta de Fuerza](media/Robots_objeto_2.png)
+*Figura 1: Plataforma experimental para ejecuci´on de tarea de agarre multi-agente*
 
 ## 📝 Resumen
 Esta investigación propone un esquema de control híbrido que integra la técnica de **enjaulamiento cooperativo (caging)** con la regulación dinámica de fuerza mediante **control de admitancia**. El sistema permite que múltiples manipuladores coordinen sus movimientos para asegurar la integridad de un objeto durante su transporte. 
@@ -36,14 +37,14 @@ La validación del esquema de control multi-agente y admitancia se llevó a cabo
 Haz clic en la imagen a continuación para ver el experimento físico en YouTube, donde se observa la fase de aproximación, el *caging* y la manipulación cooperativa sostenida:
 
 [![Demostración de Agarre Cooperativo UR3](https://img.youtube.com/vi/TU_ID_DE_YOUTUBE/0.jpg)](https://www.youtube.com/watch?v=TU_ID_DE_YOUTUBE)
-*(Nota: Asegúrate de reemplazar `TU_ID_DE_YOUTUBE` con el ID real de tu video)*
+
 
 ### 📊 Análisis Dinámico del Lazo de Control
 
 Durante el intervalo de contacto activo ($20 \le t \le 150$ s), el sistema demostró una robustez excepcional frente a la incertidumbre del hardware.
 
-![Gráfica de Respuesta de Fuerza](media/grafica_fuerza.png)
-*Figura 1: Respuesta del controlador de fuerza a una consigna de 20 N. Se observa la mitigación del chattering gracias al filtro IIR de 5 Hz.*
+![Gráfica de Respuesta de Fuerza](media/resfinal.png)
+*Figura 2: Respuesta del controlador de fuerza a una consigna de 20 N. Se observa la mitigación del chattering gracias al filtro IIR de 5 Hz.*
 
 **Métricas Clave Obtenidas:**
 * **Frecuencia de actualización real:** $\approx 9.4$ Hz (compensando asincronía de Python).
