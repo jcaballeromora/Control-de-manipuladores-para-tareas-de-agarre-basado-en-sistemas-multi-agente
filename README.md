@@ -9,7 +9,7 @@ Esta investigación propone un esquema de control híbrido que integra la técni
 
 Un aporte principal es la superación de las limitaciones de hardware de la serie **UR3 CB-Series** (que carece de sensores de fuerza nativos) mediante una arquitectura abierta asíncrona en Python, utilizando estimación indirecta de fuerza y filtrado digital avanzado.
 
-## 🚀 Características Principales
+## 🦾 Características Principales
 * **Arquitectura Abierta:** Implementación de comunicación asíncrona mediante sockets TCP/IP y protocolo RTDE.
 * **Sistemas Multi-Agente (MARS):** Algoritmos basados en Funciones de Potencial Artificial (APF) para la formación y evasión de colisiones.
 * **Control de Admitancia:** Algoritmo discreto para la regulación de fuerza de contacto sin transductores externos.
