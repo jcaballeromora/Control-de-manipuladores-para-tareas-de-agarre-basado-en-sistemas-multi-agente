@@ -37,7 +37,7 @@ La validación del esquema de control multi-agente y admitancia se llevó a cabo
 ### 🎥 Demostración en Video
 Haz clic en la imagen a continuación para ver el experimento físico en YouTube, donde se observa la fase de aproximación, el *caging* y la manipulación cooperativa sostenida:
 
-[![Demostración de Agarre Cooperativo UR3](https://img.youtube.com/vi/TU_ID_DE_YOUTUBE/0.jpg)](https://www.youtube.com/watch?v=TU_ID_DE_YOUTUBE)
+[![Demostración de Agarre Cooperativo UR3](media/Robots_objeto_2.png)]([https://www.youtube.com/watch?v=TU_ID_DE_YOUTUBE](https://youtu.be/s8URMMskm30))
 
 
 ### 📊 Análisis Dinámico del Lazo de Control
