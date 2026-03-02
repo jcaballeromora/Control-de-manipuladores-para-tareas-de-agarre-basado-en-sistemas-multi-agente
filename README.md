@@ -30,15 +30,23 @@ Un aporte principal es la superación de las limitaciones de hardware de la seri
 * Librerías: `urx`, `math`, `time`, `sys`,`os`, `matplotlib.pyplot`, `numpy`, `pandas`.
 * Hardware: Universal Robots UR3 (CB3 o e-Series) con puerto Ethernet habilitado.
 
-## 🔬 Resultados Experimentales
+## 🦾 Resultados Experimentales 🦾
 
 La validación del esquema de control multi-agente y admitancia se llevó a cabo utilizando dos manipuladores **UR3 CB-Series**. El objetivo central fue estabilizar la fuerza de contacto en **20 N** para sostener un objeto de TPU impreso en 3D en el aire, superando la latencia de red y la ausencia de sensores de fuerza nativos.
 
 ### 🎥 Demostración en Video
-Haz clic en la imagen a continuación para ver el experimento físico en YouTube, donde se observa la fase de aproximación, el *caging* y la manipulación cooperativa sostenida:
+### 🎥 Demostraciones en Video
 
-[![Demostración de Agarre Cooperativo UR3](media/Robots_objeto_2.png)][(https://youtu.be/s8URMMskm30)](https://youtu.be/s8URMMskm30))
+A continuación se presentan los enlaces a YouTube con los registros del experimento físico, donde se observa el desempeño de la arquitectura asíncrona y la respuesta de los manipuladores UR3:
 
+* 🔗 **[Video 1: Fase de aproximación y enjaulamiento (Caging)](https://youtu.be/s8URMMskm30)**
+  Se observa la convergencia de los agentes hacia el objeto de TPU y el cierre de la formación geométrica.
+
+* 🔗 **[Video 2: Replicabilidad de experimento I](https://youtu.be/uXbJGvHOyeA)**
+  Demostración 2 de propuesta de solución al tema de investigación
+
+* 🔗 **[Video 3: Replicabilidad de experimento II](https://youtube.com/shorts/58dO3bSfA-E?feature=share)**
+  Demostración 3 de propuesta de solución al tema de investigación
 
 ### 📊 Análisis Dinámico del Lazo de Control
 
