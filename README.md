@@ -34,7 +34,7 @@ Un aporte principal es la superación de las limitaciones de hardware de la seri
 
 La validación del esquema de control multi-agente y admitancia se llevó a cabo utilizando dos manipuladores **UR3 CB-Series**. El objetivo central fue estabilizar la fuerza de contacto en **20 N** para sostener un objeto de TPU impreso en 3D en el aire, superando la latencia de red y la ausencia de sensores de fuerza nativos.
 
-### 🎥 Demostración en Video
+
 ### 🎥 Demostraciones en Video
 
 A continuación se presentan los enlaces a YouTube con los registros del experimento físico, donde se observa el desempeño de la arquitectura asíncrona y la respuesta de los manipuladores UR3:
