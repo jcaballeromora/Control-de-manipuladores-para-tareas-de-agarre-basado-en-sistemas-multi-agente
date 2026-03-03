@@ -3,7 +3,7 @@ clc
 close all
 
 % POSPROCESAMIENTO DE EXPERIMENTO DE AGARRE %
-data = readtable('13datos_experimento.xlsx');
+data = readtable('datos_experimento.xlsx');
 
 % Tiempo
 t = data.current_real_time;
@@ -168,3 +168,4 @@ for i=1:n
     hold off
     fprintf('Tiempo de simulacion: %.2f\n',t(i))
 end
+
